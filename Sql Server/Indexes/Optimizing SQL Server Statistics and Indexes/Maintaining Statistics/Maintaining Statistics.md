@@ -57,4 +57,4 @@ DO SOME:
 *   if you have time update statistics with fullscan every night 
     - remember : the main side effect of update stats is ivalidating cache execution plans but it's offen a good thing it means that the new plan will based on up to date data
 * be careful of doing sampled updates after index maintenace it's worth than a waste of time 
-*   last thing : dont re invent the wheel use maintanence scripts as [ola hallengren](ola.hallengren.com/)
+*   last thing : dont re invent the wheel use maintanence scripts as [ola hallengren](https://ola.hallengren.com/)
