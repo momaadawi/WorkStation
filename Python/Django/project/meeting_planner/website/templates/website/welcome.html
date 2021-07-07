@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <h1>Welcome to the meeting planner!</h1>
+        <h2>Meetings</h2>
+        <ul>
+            {% for meeting in meetings %}
+                <li>
+                    <a href="{% url 'detail' meeting.id%}">
+                        {{meeting.title}}
+                    </a>
+
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'rooms' %}">Rooms List</a>
+    </body>
+</html>
