@@ -1,0 +1,13 @@
+
+{% extends 'applayout.html'%}
+    {%block title%}Home Page{%endblock%}
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+<p>Submit a ticket</p>
+<input type="text" name='submmitter'>
+<input type="text" name='body'>
+<button type="submit" >submit</button>
+</form>
+
+{%endblock%}

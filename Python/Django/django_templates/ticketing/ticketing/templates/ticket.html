@@ -1,0 +1,7 @@
+{% extends 'applayout.html'%}
+    {%block title%}Home Page{%endblock%}
+{% block content %}
+<span>Submitter: {{ticket.submmitter| date:"D, d M, Y"}} </span><hr>
+<span>body: {{ticket.body}} </span><hr>
+<span>created_at: {{ticket.created_at}} </span>
+{%endblock%}

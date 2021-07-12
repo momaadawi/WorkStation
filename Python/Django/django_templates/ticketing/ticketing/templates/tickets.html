@@ -1,0 +1,12 @@
+{% extends 'applayout.html'%}
+    {%block title%}Home Page{%endblock%}
+{% block content %}
+<ul>
+        
+    {% for ticket in tickets %}
+    <h4><a href="{% url 'ticket' ticket.pk %}">view ticket</a></h4>
+    <li>this was submitted by: {{ticket.submmitter}} with body {{ticket.body}} and created at: {{ticket.created_at}}</li>
+    <hr />
+    {%endfor%}
+</ul>
+{%endblock%}
