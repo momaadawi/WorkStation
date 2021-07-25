@@ -1,6 +1,6 @@
 ### indentity unused Indexes
 
-#### use DMV's to determine indexes usage state
+##### use DMV's to determine indexes usage state
 ``` sql
 SELECT OBJECT_NAME(i.object_id) AS TableName,
        i.index_id,
@@ -13,3 +13,12 @@ FROM sys.indexes i
         ON ius.object_id = i.object_id AND ius.index_id = i.index_id
 WHERE OBJECTPROPERTY(i.object_id, 'IsMSShipped') = 0;
 ```
+
+##### removint unused indexes
++ pros
+    + free up spaces in database
+    + reduce overhead in data modification 
++ cons
+    + require extensive analysis
+    + risk of missing query thar run occasionally
+
