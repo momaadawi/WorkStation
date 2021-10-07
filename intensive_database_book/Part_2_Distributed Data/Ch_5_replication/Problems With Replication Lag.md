@@ -54,8 +54,7 @@ randomly.
 Preventing this kind of anomaly requires another type of guarantee: consistent prefix reads. This guarantee says that if a sequence of writes happens in a certain order, then anyone reading those writes will see them appear in the same order
 
 One solution is to make sure that any writes which are causally related to each other
-are  written  to  the  same  partition — but  in  some  applications  that  can’t  be  done  effi‐
-ciently.  In  general,  ensuring  consistent  prefix  reads  requires  a  kind  of  distributed
+are  written  to  the  same  partition but  in  some  applications  that  can’t  be  done  efficiently.  In  general,  ensuring  consistent  prefix  reads  requires  a  kind  of  distributed
 transaction with a guarantee such as snapshot isolation.
 
 ## Solutions for replication lag
