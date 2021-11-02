@@ -1,5 +1,5 @@
 ### IntroDuction and why column store need maintainence
-Column store dont have key then there is no logical order for the index pages instead rows forms in rows group of up to millions rows with no tree structres,
+Column store dose not have key then there is no logical order for the index pages instead rows forms in rows group of up to millions rows with no tree structres,
 When **Delta Store** reaches a million rows it's not compressed immedtiatly
 *   **Tuple mover**: is background proccess Which takes row Groups and compressed them
  ##### Why do ColumnStore Indexes need Maintenance?
