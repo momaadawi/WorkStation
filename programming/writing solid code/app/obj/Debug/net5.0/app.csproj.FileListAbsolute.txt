@@ -1,0 +1,16 @@
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.exe
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.deps.json
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.runtimeconfig.json
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.runtimeconfig.dev.json
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.dll
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\ref\app.dll
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\bin\Debug\net5.0\app.pdb
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.csproj.AssemblyReference.cache
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.AssemblyInfoInputs.cache
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.AssemblyInfo.cs
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.csproj.CoreCompileInputs.cache
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.dll
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\ref\app.dll
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.pdb
+C:\elmadawy\Git hub WorkStation\programming\writing solid code\app\obj\Debug\net5.0\app.genruntimeconfig.cache
