@@ -10,8 +10,13 @@ GO
 --LAG
 SELECT CustomerID, SalesOrderID, TotalDue, 
 	LAG(TotalDue) OVER(PARTITION BY CustomerID ORDER BY SalesOrderID) AS PrevTotalDue,
-	LAG(SalesOrderID) OVER(PARTITION BY CustomerID ORDER BY SalesOrderID) AS PrevOrderID
+	LAG(SalesOrderID) OVER(PARTITION BY CustomerID ORDER BY SalesOrderID) AS PrevOrderID,
+	LAG(TotalDue, 2, 2) OVER(ORDER BY CUSTOMERID)
 FROM Sales.SalesOrderHeader;
+
+SELECT CustomerID, SalesOrderID, TotalDue,
+	SUM(TotalDue) OVER(order by salesorderid rows between unbounded preceding and current row ) as total
+	from Sales.SalesOrderHeader
 
 --LEAD
 SELECT CustomerID, SalesOrderID, TotalDue, 

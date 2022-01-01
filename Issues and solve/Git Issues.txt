@@ -1,0 +1,5 @@
+1- error : LF will be replaced by CRLF in git >>
+    solve: add every file >> git add -u :/<file> or <Folder>
+        will add updated file and folders 
+        https://stackoverflow.com/questions/21134960/what-does-changes-not-staged-for-commit-mean
+2-

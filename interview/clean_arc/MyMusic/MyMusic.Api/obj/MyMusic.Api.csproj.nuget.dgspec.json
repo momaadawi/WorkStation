@@ -1,0 +1,287 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Api\\MyMusic.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Api\\MyMusic.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Api\\MyMusic.Api.csproj",
+        "projectName": "MyMusic.Api",
+        "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Api\\MyMusic.Api.csproj",
+        "packagesPath": "C:\\Users\\WinDows\\.nuget\\packages\\",
+        "outputPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WinDows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj": {
+                "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj"
+              },
+              "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\MyMusic.Data.csproj": {
+                "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\MyMusic.Data.csproj"
+              },
+              "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\mymusic.service.csproj": {
+                "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\mymusic.service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Entityframeworkcore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj",
+        "projectName": "MyMusic.Core",
+        "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj",
+        "packagesPath": "C:\\Users\\WinDows\\.nuget\\packages\\",
+        "outputPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WinDows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\MyMusic.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\MyMusic.Data.csproj",
+        "projectName": "MyMusic.Data",
+        "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\MyMusic.Data.csproj",
+        "packagesPath": "C:\\Users\\WinDows\\.nuget\\packages\\",
+        "outputPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WinDows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj": {
+                "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "microsoft.entityframeworkcore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\mymusic.service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\mymusic.service.csproj",
+        "projectName": "mymusic.service",
+        "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\mymusic.service.csproj",
+        "packagesPath": "C:\\Users\\WinDows\\.nuget\\packages\\",
+        "outputPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\mymusic.service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WinDows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj": {
+                "projectPath": "C:\\elmadawy\\interview\\clean_arc\\MyMusic\\MyMusic.Core\\MyMusic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

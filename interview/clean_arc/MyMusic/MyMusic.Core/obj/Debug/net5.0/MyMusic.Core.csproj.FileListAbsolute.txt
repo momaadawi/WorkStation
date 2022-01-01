@@ -1,0 +1,12 @@
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\bin\Debug\net5.0\MyMusic.Core.deps.json
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\bin\Debug\net5.0\MyMusic.Core.dll
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\bin\Debug\net5.0\ref\MyMusic.Core.dll
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\bin\Debug\net5.0\MyMusic.Core.pdb
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.csproj.AssemblyReference.cache
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.AssemblyInfoInputs.cache
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.AssemblyInfo.cs
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.csproj.CoreCompileInputs.cache
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.dll
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\ref\MyMusic.Core.dll
+C:\elmadawy\interview\clean_arc\MyMusic\MyMusic.Core\obj\Debug\net5.0\MyMusic.Core.pdb
