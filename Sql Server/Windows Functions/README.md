@@ -91,7 +91,7 @@ DEFAULT FRAME: RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 
 ## Performance
 window spool :
-![](./media/spool.png)
+![spooooooool](./media/spool.png)
 
 This refercs to a work table that was created to help with calculations, usually created in memory, it's not effected by blocks or locking it's almost magic.
 sometimes the worktable created in tempdb and performance is much worse
